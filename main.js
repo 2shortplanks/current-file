@@ -84,8 +84,6 @@ class CurrentFileSettingTab extends obsidian.PluginSettingTab {
 
     containerEl.empty();
 
-    containerEl.createEl("h2", { text: "Current File Plugin Settings" });
-
     new obsidian.Setting(containerEl)
       .setName("Path")
       .setDesc(
